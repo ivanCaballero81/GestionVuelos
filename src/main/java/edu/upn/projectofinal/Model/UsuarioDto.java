@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.upn.projectofinal.dto;
+package edu.upn.projectofinal.Model;
 
 import java.util.Date;
 

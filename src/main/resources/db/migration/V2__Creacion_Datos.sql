@@ -84,3 +84,27 @@ INSERT INTO REGISTRO.RESERVA(
     (1,'140',STR_TO_DATE('27-04-2016', '%d-%m-%Y'),''),
     (2,'120',STR_TO_DATE('26-04-2016', '%d-%m-%Y'),''),
     (3,'100',STR_TO_DATE('06-05-2016', '%d-%m-%Y'),'');
+INSERT INTO REGISTRO.AEROLINEA
+(
+	idAerolinea,
+	ruc,
+	nombre
+)VALUES(
+1,
+'12345678921',
+'Delta Air Lines');
+
+INSERT INTO REGISTRO.ASIENTO (idAsiento,fila,letra)
+VALUES
+	(1,'1','A'),
+	(2,'1','B'),
+	(3,'1','C'),
+	(4,'2','A'),
+	(5,'2','B'),
+	(6,'2','C'),
+	(7,'3','A'),
+	(8,'3','B'),
+	(9,'3','C'),
+	(10,'4','A'),
+	(11,'4','B'),
+	(12,'4','C');
