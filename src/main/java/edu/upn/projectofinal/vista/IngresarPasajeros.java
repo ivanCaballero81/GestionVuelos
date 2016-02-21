@@ -47,7 +47,12 @@ public class IngresarPasajeros extends javax.swing.JFrame {
         }
     }
     public void limpiar(){
-        
+        txtMail.setText("");
+        txtNombre.setText("");
+        txtPaterno.setText("");
+        txtMaterno.setText("");
+        txtNacimeinto.setText("");
+        txtNumero.setText("");
     }
     public PasajeroDto getPasajero()  {
         return new PasajeroDto(DBConnection.getNewId()+1,
@@ -117,7 +122,7 @@ public class IngresarPasajeros extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnSalir);
-        btnSalir.setBounds(360, 320, 60, 24);
+        btnSalir.setBounds(350, 290, 60, 24);
 
         btnGuardar.setText("Guardar");
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
@@ -126,7 +131,7 @@ public class IngresarPasajeros extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnGuardar);
-        btnGuardar.setBounds(40, 320, 81, 24);
+        btnGuardar.setBounds(40, 290, 81, 24);
 
         jLabel4.setText("Materno");
         getContentPane().add(jLabel4);
@@ -168,7 +173,12 @@ public class IngresarPasajeros extends javax.swing.JFrame {
 
     private void btnGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuardarActionPerformed
         if (validar()) {
-            DBConnection.InsertPasajero(getPasajero());
+            if(DBConnection.InsertPasajero(getPasajero())){
+                JOptionPane.showMessageDialog(null, "Exito");
+                limpiar();
+            }else{
+                JOptionPane.showMessageDialog(null, "Error en los Datos de Entrada");
+            }
         } else {
             JOptionPane.showMessageDialog(null, "Error en los Datos de Entrada");
 

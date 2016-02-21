@@ -84,8 +84,9 @@ public class DBConnection {
         }
     }
 
-    public static void InsertPasajero(PasajeroDto pasajeroDto) {
+    public static Boolean InsertPasajero(PasajeroDto pasajeroDto) {
         con = getInstance();
+        
         if (con != null) {
             try {
 
@@ -111,11 +112,13 @@ public class DBConnection {
                 //stmt.setString(9, pasajeroDto.getMaterno());
                 stmt.setInt(9, pasajeroDto.getIdPais());
                 stmt.executeUpdate();
-
+                
             } catch (SQLException e) {
                 e.printStackTrace();
+                return false;
             }
         }
+        return true;
     }
 
     public static List<PasajeroDto> getPasajeros() {
