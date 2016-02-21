@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.upn.projectofinal.db;
+package edu.upn.projectofinal.Controller;
 
 //import com.mysql.jdbc.Connection;
 import edu.upn.projectofinal.Model.PasajeroDto;

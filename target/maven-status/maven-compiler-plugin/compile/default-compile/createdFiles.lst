@@ -1,6 +1,7 @@
 edu/upn/projectofinal/Model/UsuarioDto.class
 edu/upn/projectofinal/vista/RegistroAsientos$1.class
 edu/upn/projectofinal/vista/ListPasajeros$1.class
+edu/upn/projectofinal/Controller/TestDBConnection.class
 edu/upn/projectofinal/vista/IngresarPasajeros$2.class
 edu/upn/projectofinal/vista/ListPasajeros$3.class
 edu/upn/projectofinal/vista/Login$3.class
@@ -10,13 +11,12 @@ edu/upn/projectofinal/Model/PaisDto.class
 edu/upn/projectofinal/Model/PasajeroDto$Tipo.class
 edu/upn/projectofinal/vista/Login$1.class
 edu/upn/projectofinal/vista/RegistroAsientos$3.class
-edu/upn/projectofinal/db/DBConnection.class
 edu/upn/projectofinal/vista/RegistroAsientos.class
 edu/upn/projectofinal/vista/ListPasajeros$2.class
 edu/upn/projectofinal/vista/RegistroAsientos$2.class
+edu/upn/projectofinal/Controller/DBConnection.class
 edu/upn/projectofinal/vista/IngresarPasajeros$1.class
 edu/upn/projectofinal/vista/Login$2.class
-edu/upn/projectofinal/db/TestDBConnection.class
 edu/upn/projectofinal/vista/IngresarPasajeros.class
 edu/upn/projectofinal/vista/Login.class
 edu/upn/projectofinal/Model/PasajeroDto.class

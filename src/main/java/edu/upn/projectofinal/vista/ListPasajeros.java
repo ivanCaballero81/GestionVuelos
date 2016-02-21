@@ -5,7 +5,7 @@
  */
 package edu.upn.projectofinal.vista;
 
-import edu.upn.projectofinal.db.DBConnection;
+import edu.upn.projectofinal.Controller.DBConnection;
 import edu.upn.projectofinal.Model.PasajeroDto;
 import edu.upn.projectofinal.Model.TablaModelPasajeros;
 import java.util.List;

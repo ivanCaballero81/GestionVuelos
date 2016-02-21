@@ -5,7 +5,7 @@
  */
 package edu.upn.projectofinal.vista;
 
-import edu.upn.projectofinal.db.DBConnection;
+import edu.upn.projectofinal.Controller.DBConnection;
 import edu.upn.projectofinal.Model.PasajeroDto;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -46,9 +46,11 @@ public class IngresarPasajeros extends javax.swing.JFrame {
             return true;
         }
     }
-
+    public void limpiar(){
+        
+    }
     public PasajeroDto getPasajero()  {
-        return new PasajeroDto(DBConnection.getNewId(),
+        return new PasajeroDto(DBConnection.getNewId()+1,
                 txtNombre.getText(),
                 txtPaterno.getText(),
                 txtMaterno.getText(),

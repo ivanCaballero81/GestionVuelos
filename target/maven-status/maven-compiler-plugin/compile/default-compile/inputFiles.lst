@@ -1,9 +1,9 @@
-/home/ivan/NetBeansProjects/ProjectoFinal/src/main/java/edu/upn/projectofinal/db/DBConnection.java
 /home/ivan/NetBeansProjects/ProjectoFinal/src/main/java/edu/upn/projectofinal/vista/ListPasajeros.java
-/home/ivan/NetBeansProjects/ProjectoFinal/src/main/java/edu/upn/projectofinal/db/TestDBConnection.java
 /home/ivan/NetBeansProjects/ProjectoFinal/src/main/java/edu/upn/projectofinal/Model/PasajeroDto.java
 /home/ivan/NetBeansProjects/ProjectoFinal/src/main/java/edu/upn/projectofinal/vista/IngresarPasajeros.java
 /home/ivan/NetBeansProjects/ProjectoFinal/src/main/java/edu/upn/projectofinal/vista/Login.java
+/home/ivan/NetBeansProjects/ProjectoFinal/src/main/java/edu/upn/projectofinal/Controller/TestDBConnection.java
+/home/ivan/NetBeansProjects/ProjectoFinal/src/main/java/edu/upn/projectofinal/Controller/DBConnection.java
 /home/ivan/NetBeansProjects/ProjectoFinal/src/main/java/edu/upn/projectofinal/vista/RegistroAsientos.java
 /home/ivan/NetBeansProjects/ProjectoFinal/src/main/java/edu/upn/projectofinal/Model/PaisDto.java
 /home/ivan/NetBeansProjects/ProjectoFinal/src/main/java/edu/upn/projectofinal/Model/UsuarioDto.java
