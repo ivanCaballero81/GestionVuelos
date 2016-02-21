@@ -5,6 +5,8 @@
  */
 package edu.upn.projectofinal.vista;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author ivan
@@ -97,11 +99,17 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
-        // TODO add your handling code here:
+        this.setVisible(false);
+        new RegistroAsientos().setVisible(true);
     }//GEN-LAST:event_btnLoginActionPerformed
 
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
-        // TODO add your handling code here:
+        int r = JOptionPane.showOptionDialog(this, "Estas seguro que desea Salir ?",
+                "Sistema de Reserva de Tickets", JOptionPane.YES_NO_OPTION,
+                JOptionPane.QUESTION_MESSAGE, null, null, null);
+        if (r == 0) {
+            System.exit(0);
+        }
     }//GEN-LAST:event_btnSalirActionPerformed
 
     /**
