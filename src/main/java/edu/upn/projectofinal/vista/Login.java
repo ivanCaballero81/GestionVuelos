@@ -46,7 +46,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(50, 60, 119, 20);
         getContentPane().add(txtUsuario);
-        txtUsuario.setBounds(180, 60, 108, 30);
+        txtUsuario.setBounds(210, 60, 108, 30);
 
         jLabel2.setText("Password :");
         getContentPane().add(jLabel2);
@@ -61,7 +61,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(btnSalir);
         btnSalir.setBounds(210, 150, 74, 24);
         getContentPane().add(txtPassword);
-        txtPassword.setBounds(180, 100, 108, 30);
+        txtPassword.setBounds(210, 100, 108, 30);
 
         btnLogin.setText("Login");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {

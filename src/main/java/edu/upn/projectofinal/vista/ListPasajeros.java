@@ -57,6 +57,7 @@ public class ListPasajeros extends javax.swing.JFrame {
         btnRegresar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocation(new java.awt.Point(200, 200));
         setMinimumSize(new java.awt.Dimension(600, 400));
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N

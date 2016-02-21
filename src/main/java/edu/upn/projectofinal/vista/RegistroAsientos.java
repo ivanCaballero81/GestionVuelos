@@ -37,7 +37,7 @@ public class RegistroAsientos extends javax.swing.JFrame {
         btnSalir = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setLocation(new java.awt.Point(100, 100));
+        setLocation(new java.awt.Point(200, 200));
         setMinimumSize(new java.awt.Dimension(400, 600));
 
         jLabel1.setIcon(new javax.swing.ImageIcon("/home/ivan/NetBeansProjects/ProjectoFinal/src/main/resources/map1.jpg")); // NOI18N
