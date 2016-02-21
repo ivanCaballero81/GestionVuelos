@@ -180,7 +180,7 @@ public class IngresarPasajeros extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Error en los Datos de Entrada");
             }
         } else {
-            JOptionPane.showMessageDialog(null, "Error en los Datos de Entrada");
+            JOptionPane.showMessageDialog(null, "Datos no validos");
 
         }
     }//GEN-LAST:event_btnGuardarActionPerformed
